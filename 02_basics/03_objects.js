@@ -29,7 +29,7 @@ jsUser.greeting = function(){
 }
 
 jsUser.greetingTwo = function(){
-    console.log(`Hello ${this["full name"]}, you are logged in from ${this.location}`);
+    console.log(`Hello ${this["full name"]}, you are logged in from ${this.location}`);  // This is used to refer to current object.
 }
 
 console.log(jsUser.greeting());
